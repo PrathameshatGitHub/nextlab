@@ -131,9 +131,9 @@ export function SimulatedConsole() {
         response = (
           <div className="space-y-1 font-mono text-xs text-slate-300">
             <p className="text-cyber-green">HANDSHAKE WEBHOOK GATEWAY:</p>
-            <p>• Email: <a href="mailto:prathameshmali.dev@gmail.com" className="text-react-blue hover:underline">prathameshmali.dev@gmail.com</a></p>
-            <p>• LinkedIn: <a href="https://linkedin.com/in/prathamesh-mali" target="_blank" rel="noreferrer" className="text-react-blue hover:underline">linkedin.com/in/prathamesh-mali</a></p>
-            <p>• GitHub: <a href="https://github.com/prathamesh-mali" target="_blank" rel="noreferrer" className="text-react-blue hover:underline">github.com/prathamesh-mali</a></p>
+            <p>• Email: <a href="mailto:maliprathamesh3162@gmail.com" className="text-react-blue hover:underline">maliprathamesh3162@gmail.com</a></p>
+            <p>• LinkedIn: <a href="https://www.linkedin.com/in/prathamesh-mali-27685b236/" target="_blank" rel="noreferrer" className="text-react-blue hover:underline">https://www.linkedin.com/in/prathamesh-mali-27685b236/</a></p>
+            <p>• GitHub: <a href="https://github.com/PrathameshatGitHub" target="_blank" rel="noreferrer" className="text-react-blue hover:underline">https://github.com/PrathameshatGitHub</a></p>
             <p className="text-slate-500 mt-1">Alternatively, use the contact terminal simulator at the bottom of the dashboard.</p>
           </div>
         );

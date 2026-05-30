@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "AntyGravity Labs",
     "Pune Developer"
   ],
-  authors: [{ name: "Prathamesh Mali", url: "https://github.com/prathamesh-mali" }],
+  authors: [{ name: "Prathamesh Mali", url: "https://github.com/PrathameshatGitHub" }],
   creator: "Prathamesh Mali",
   openGraph: {
     title: "Prathamesh Mali | Frontend Engineer & Next.js Architect",
@@ -81,8 +81,8 @@ export default function RootLayout({
                 "addressCountry": "India"
               },
               "sameAs": [
-                "https://github.com/prathamesh-mali",
-                "https://linkedin.com/in/prathamesh-mali"
+                "https://github.com/PrathameshatGitHub",
+                "https://www.linkedin.com/in/prathamesh-mali-27685b236/"
               ],
               "knowsAbout": [
                 "React",

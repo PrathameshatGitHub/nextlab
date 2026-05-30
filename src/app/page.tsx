@@ -166,23 +166,20 @@ export default function Home() {
                 Get in Touch
                 <Mail className="w-4 h-4" />
               </a>
-              <a
-                href="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert("Resume download will be linked here.");
-                }}
-                className="inline-flex items-center gap-2 border border-slate-700 bg-transparent text-slate-300 font-semibold text-base px-6 py-3 rounded-md hover:bg-slate-900 hover:text-white transition-colors"
-              >
-                <Download className="w-4 h-4" />
-                Resume
-              </a>
+             <a
+  href="https://drive.google.com/file/d/1f3_sIkT-Uu-VDFOxpxfRKZaruOpt43di/view?usp=sharing"
+  download
+  className="inline-flex items-center gap-2 border border-slate-700 bg-transparent text-slate-300 font-semibold text-base px-6 py-3 rounded-md hover:bg-slate-900 hover:text-white transition-colors"
+>
+  <Download className="w-4 h-4" />
+  Resume
+</a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-2">
               <a
-                href="https://github.com/prathamesh-mali"
+                href="https://github.com/PrathameshatGitHub"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
@@ -194,7 +191,7 @@ export default function Home() {
               </a>
               <span className="text-slate-700">·</span>
               <a
-                href="https://linkedin.com/in/prathamesh-mali"
+                href="https://www.linkedin.com/in/prathamesh-mali-27685b236/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
@@ -206,7 +203,7 @@ export default function Home() {
               </a>
               <span className="text-slate-700">·</span>
               <a
-                href="mailto:prathameshmali.dev@gmail.com"
+                href="mailto:maliprathamesh3162@gmail.com"
                 className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
               >
                 <Mail className="w-4 h-4" />
@@ -298,7 +295,7 @@ export default function Home() {
                     { label: "Location", value: "Pune, Maharashtra, India" },
                     { label: "Education", value: "B.Tech Computer Science, 2024" },
                     { label: "CGPA", value: "8.0 / 10" },
-                    { label: "Email", value: "prathameshmali.dev@gmail.com" },
+                    { label: "Email", value: "maliprathamesh3162@gmail.com" },
                     { label: "Status", value: "Available for opportunities" },
                   ].map((item, i) => (
                     <div key={i} className="flex gap-4">
@@ -454,8 +451,8 @@ export default function Home() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 block mb-2">SaaS Application</span>
-                  <h3 className="text-2xl font-bold text-white">Zaal</h3>
-                  <p className="text-sm text-slate-500 mt-0.5">Venue Booking Platform</p>
+                  <h3 className="text-2xl font-bold text-white">Venue Booking Platform</h3>
+                  <p className="text-sm text-slate-500 mt-0.5">Multi-Vendor SaaS Application</p>
                 </div>
                 <span className="shrink-0 text-xs font-mono font-bold text-[#22c55e] border border-[#22c55e]/30 bg-[#22c55e]/5 px-2 py-1 rounded">
                   Live
@@ -490,8 +487,8 @@ export default function Home() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 block mb-2">Company Website</span>
-                  <h3 className="text-2xl font-bold text-white">Artcode</h3>
-                  <p className="text-sm text-slate-500 mt-0.5">Corporate Web Platform</p>
+                  <h3 className="text-2xl font-bold text-white">Corporate Website</h3>
+                  <p className="text-sm text-slate-500 mt-0.5">Enterprise Brand Platform</p>
                 </div>
                 <span className="shrink-0 text-xs font-mono font-bold text-[#22c55e] border border-[#22c55e]/30 bg-[#22c55e]/5 px-2 py-1 rounded">
                   Live
@@ -781,8 +778,8 @@ export default function Home() {
                   <Mail className="w-5 h-5 text-[#22c55e] shrink-0" />
                   <div>
                     <p className="text-xs text-slate-500 font-mono uppercase tracking-wider">Email</p>
-                    <a href="mailto:prathameshmali.dev@gmail.com" className="text-white hover:text-[#22c55e] transition-colors font-medium">
-                      prathameshmali.dev@gmail.com
+                    <a href="mailto:maliprathamesh3162@gmail.com" className="text-white hover:text-[#22c55e] transition-colors font-medium">
+                      maliprathamesh3162@gmail.com
                     </a>
                   </div>
                 </div>
@@ -792,8 +789,8 @@ export default function Home() {
                   </svg>
                   <div>
                     <p className="text-xs text-slate-500 font-mono uppercase tracking-wider">LinkedIn</p>
-                    <a href="https://linkedin.com/in/prathamesh-mali" target="_blank" rel="noreferrer" className="text-white hover:text-[#22c55e] transition-colors font-medium">
-                      linkedin.com/in/prathamesh-mali
+                    <a href="https://www.linkedin.com/in/prathamesh-mali-27685b236/" target="_blank" rel="noreferrer" className="text-white hover:text-[#22c55e] transition-colors font-medium">
+                      https://www.linkedin.com/in/prathamesh-mali-27685b236/
                     </a>
                   </div>
                 </div>
@@ -803,8 +800,8 @@ export default function Home() {
                   </svg>
                   <div>
                     <p className="text-xs text-slate-500 font-mono uppercase tracking-wider">GitHub</p>
-                    <a href="https://github.com/prathamesh-mali" target="_blank" rel="noreferrer" className="text-white hover:text-[#22c55e] transition-colors font-medium">
-                      github.com/prathamesh-mali
+                    <a href="https://github.com/PrathameshatGitHub" target="_blank" rel="noreferrer" className="text-white hover:text-[#22c55e] transition-colors font-medium">
+                      https://github.com/PrathameshatGitHub
                     </a>
                   </div>
                 </div>
@@ -896,9 +893,9 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <p>© {new Date().getFullYear()} Prathamesh Shrimant Mali. Built with Next.js 15 & Tailwind CSS.</p>
           <div className="flex items-center gap-6">
-            <a href="https://github.com/prathamesh-mali" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
-            <a href="https://linkedin.com/in/prathamesh-mali" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
-            <a href="mailto:prathameshmali.dev@gmail.com" className="hover:text-white transition-colors">Email</a>
+            <a href="https://github.com/PrathameshatGitHub" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/prathamesh-mali-27685b236/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="mailto:maliprathamesh3162@gmail.com" className="hover:text-white transition-colors">Email</a>
           </div>
         </div>
       </footer>
