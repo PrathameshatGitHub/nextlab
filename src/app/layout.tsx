@@ -82,7 +82,7 @@ export default function RootLayout({
               },
               "sameAs": [
                 "https://github.com/PrathameshatGitHub",
-                "https://www.linkedin.com/in/prathamesh-mali-27685b236/"
+                "https://www.linkedin.com/in/prathamesh-mali-27685b236/" 
               ],
               "knowsAbout": [
                 "React",

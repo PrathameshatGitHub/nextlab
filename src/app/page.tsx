@@ -201,7 +201,7 @@ export default function Home() {
                 </svg>
                 LinkedIn
               </a>
-              <span className="text-slate-700">·</span>
+              <span className="text-slate-700">·</span> 
               <a
                 href="mailto:maliprathamesh3162@gmail.com"
                 className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
@@ -212,7 +212,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Quick stats bar */}
+          {/* Quick stats bar  sdf*/}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 border border-slate-800/80 bg-slate-900/30 rounded-xl p-6">
             {[
               { label: "Years of Experience", value: "2+" },
