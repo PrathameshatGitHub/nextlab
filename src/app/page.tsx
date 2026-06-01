@@ -176,7 +176,7 @@ export default function Home() {
 </a>
             </div>
 
-            {/* Social Links */}
+            {/* Social Links added  */}
             <div className="flex items-center gap-4 pt-2">
               <a
                 href="https://github.com/PrathameshatGitHub"
