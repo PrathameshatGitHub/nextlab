@@ -167,7 +167,7 @@ export default function Home() {
                 <Mail className="w-4 h-4" />
               </a>
              <a
-  href="https://drive.google.com/file/d/1f3_sIkT-Uu-VDFOxpxfRKZaruOpt43di/view?usp=sharing"
+  href="https://drive.google.com/file/d/1oyOrqkUhbexDAWgz4QBzd74O7QmG78LH/view?usp=sharing"
   download
   className="inline-flex items-center gap-2 border border-slate-700 bg-transparent text-slate-300 font-semibold text-base px-6 py-3 rounded-md hover:bg-slate-900 hover:text-white transition-colors"
 >
@@ -808,7 +808,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Right — Form */}
+            {/* Right — Form form dfg */}
             <motion.div
               variants={fadeUp}
               initial="hidden"
