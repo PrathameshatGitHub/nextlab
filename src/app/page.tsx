@@ -115,7 +115,7 @@ export default function Home() {
       {/* ─── MAIN ─── */}
       <main className="mx-auto max-w-6xl px-6 py-16 space-y-32">
 
-        {/* ── 1. HERO ── */}
+        {/* ── 1. HERO aer ── */}
         <section id="hero" className="pt-8 space-y-10">
           <motion.div
             variants={fadeUp}
